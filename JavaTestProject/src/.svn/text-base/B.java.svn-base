@@ -1,0 +1,8 @@
+
+public class B {
+
+	public String methodB(){
+		return "default-b";
+	}
+	
+}

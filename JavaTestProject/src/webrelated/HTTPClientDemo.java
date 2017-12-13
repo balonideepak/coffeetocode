@@ -1,0 +1,34 @@
+/**
+ * 
+ */
+package webrelated;
+
+import java.io.IOException;
+
+import org.apache.commons.httpclient.HttpClient;
+import org.apache.commons.httpclient.HttpException;
+import org.apache.commons.httpclient.methods.GetMethod;
+
+/**
+ * @author deepak.baloni
+ * 
+ */
+public class HTTPClientDemo {
+
+	/**
+	 * @throws IOException 
+	 * @throws HttpException 
+	 * @User : deepak.baloni
+	 * @Method Return Type : void
+	 * @Created Time : 4:12:09 PM
+	 */
+	public static void main(String[] args) throws HttpException, IOException {
+
+		HttpClient client = new HttpClient();
+		GetMethod method=new GetMethod("http://www.google1.com");//new PostMethod("http://obll2351e2876:7001/aslan/aslan/control/SongDownload.jsp?ctype=REALTONE&sid=F8390E4A2C8F478B9DA885FC0949DA5A&comid=28131F79E9F74B80A513CFE4BF8148A5");
+		int status = client.executeMethod(method);
+		System.out.println("status ::"+status);
+
+	}
+
+}

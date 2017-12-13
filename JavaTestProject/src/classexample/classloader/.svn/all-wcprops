@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/28/JavaTestProject/src/classexample/classloader
+END
+LoadClassFromJar.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/28/JavaTestProject/src/classexample/classloader/LoadClassFromJar.java
+END
+ClassLoaderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/28/JavaTestProject/src/classexample/classloader/ClassLoaderTest.java
+END
+CustomClassLoaderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/28/JavaTestProject/src/classexample/classloader/CustomClassLoaderTest.java
+END
+CustomClassLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/28/JavaTestProject/src/classexample/classloader/CustomClassLoader.java
+END
+LoadClassFromNetwork.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/28/JavaTestProject/src/classexample/classloader/LoadClassFromNetwork.java
+END

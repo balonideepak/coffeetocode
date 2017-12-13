@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/61/JavaTestProject/src
+END
+Helper.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/67/JavaTestProject/src/Helper.java
+END
+log4j_to_db.properties
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/17/JavaTestProject/src/log4j_to_db.properties
+END
+log4j_to_file.properties
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/18/JavaTestProject/src/log4j_to_file.properties
+END
+SuperHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/67/JavaTestProject/src/SuperHelper.java
+END
+Draw.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/67/JavaTestProject/src/Draw.java
+END
+B.java
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/67/JavaTestProject/src/B.java
+END
+A.java
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/67/JavaTestProject/src/A.java
+END
+AllTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/67/JavaTestProject/src/AllTests.java
+END
+NetworkPing.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/67/JavaTestProject/src/NetworkPing.java
+END
+Test123.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/67/JavaTestProject/src/Test123.java
+END
+Test2.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/67/JavaTestProject/src/Test2.java
+END
+Test1.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/67/JavaTestProject/src/Test1.java
+END
+TestExceptionSuper.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/67/JavaTestProject/src/TestExceptionSuper.java
+END
+TestEnum1.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/68/JavaTestProject/src/TestEnum1.java
+END
+MessagesBundle.properties
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/44/JavaTestProject/src/MessagesBundle.properties
+END
+MessagesBundle_fr_FR.properties
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/44/JavaTestProject/src/MessagesBundle_fr_FR.properties
+END
+MessagesBundle_de_DE.properties
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/44/JavaTestProject/src/MessagesBundle_de_DE.properties
+END
+TestException.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/67/JavaTestProject/src/TestException.java
+END
+FindElementsByAttributesWithXPath.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/68/JavaTestProject/src/FindElementsByAttributesWithXPath.java
+END
+TestEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/68/JavaTestProject/src/TestEnum.java
+END
+MessagesBundle_en_US.properties
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/44/JavaTestProject/src/MessagesBundle_en_US.properties
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/53/JavaTestProject/src/xml/jaxb
+END
+Customer.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/JavaTestProject/src/xml/jaxb/Customer.java
+END
+ObjectToXML.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/7/JavaTestProject/src/xml/jaxb/ObjectToXML.java
+END
+Test.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/53/JavaTestProject/src/xml/jaxb/Test.java
+END
+CustomerAgain.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/53/JavaTestProject/src/xml/jaxb/CustomerAgain.java
+END
+XMLToObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/7/JavaTestProject/src/xml/jaxb/XMLToObject.java
+END

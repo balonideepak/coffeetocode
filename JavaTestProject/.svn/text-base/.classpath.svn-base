@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/commons-codec.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/json.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.0.4-bin.jar"/>
+	<classpathentry kind="lib" path="lib/org.apache.commons.httpclient.jar"/>
+	<classpathentry kind="lib" path="lib/quartz-2.1.7.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/wurfl-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/java/jars/pdfonej_t_p5.0.0.123/bin/PDFOne.jar"/>
+	<classpathentry kind="lib" path="lib/pdfbox-app-1.8.6.jar"/>
+	<classpathentry kind="lib" path="lib/PDFOne.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_31">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Softwares/java/easymock-3.3.1/easymock-3.3.1/easymock-3.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/java/easymock-3.3.1/easymock-3.3.1/easymock-3.3.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/java/easymock-3.3.1/easymock-3.3.1/easymock-3.3.1-samples.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/java/easymock-3.3.1/easymock-3.3.1/easymock-3.3.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/java/easymock-3.3.1/easymock-3.3.1/easymock-3.3.1-tests.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/java/easymock-3.3.1/objenesis-1.2.jar/objenesis-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/java/easymock-3.3.1/cglib-2.2.jar/cglib-2.2.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/java/easymock-3.3.1/asm-3.1.jar/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/java/wsdl4j-1.5.2.jar/wsdl4j-1.5.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

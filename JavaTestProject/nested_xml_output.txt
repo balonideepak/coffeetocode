@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Foster-Home>
+    <Families>
+        <Family>
+            <Childlist>
+                <Childid>child1</Childid>
+                <Childid>child2</Childid>
+            </Childlist>
+            <Parentid>1234</Parentid>
+        </Family>
+    </Families>
+    <Location>San-Jose</Location>
+    <Orphanage>Saint-Maria</Orphanage>
+</Foster-Home>

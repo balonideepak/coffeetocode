@@ -1,0 +1,107 @@
+package thread.future;
+
+import java.net.URL;
+import java.net.URLConnection;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+
+public class CallableFutureDemo {
+
+	/**
+	 * @author deepak.baloni
+	 * @param args
+	 * @throws InterruptedException
+	 * @throws ExecutionException 
+	 */
+	public static void main(String[] args) throws InterruptedException, ExecutionException {
+
+		ExecutorService executor = Executors.newFixedThreadPool(2);
+		Collection<Task> tasks = new ArrayList<Task>();
+		tasks.add(new Task("https://athene.onmobile.com/dashboard.action"));
+		tasks.add(new Task("http://go.onmobile.com/pages/intranet.aspx"));
+		
+		List<Future<SearchResult>> invokeAll = executor.invokeAll(tasks);
+		for (Future<SearchResult> future : invokeAll) {
+			SearchResult searchResult = future.get();
+			System.out.println(searchResult.getData()+" >>> "+searchResult.getResponse());
+		}
+		
+		System.out.println("Successfully hit the urls");
+		System.exit(0);
+
+	}
+
+}
+
+class Task implements Callable<SearchResult> {
+
+	private String url;
+
+	public Task(String url) {
+		this.url = url;
+	}
+
+	public SearchResult call() throws Exception {
+		URL lurl =new URL(url);
+		URLConnection conn = lurl.openConnection();
+		return new SearchResult(11, conn.getPermission().getActions() + "");
+	}
+}
+
+class SearchResult {
+	private int data;
+	private String response;
+
+	public SearchResult(int data, String response) {
+		super();
+		this.data = data;
+		this.response = response;
+	}
+
+	/**
+	 * @return the data
+	 */
+	public int getData() {
+		return data;
+	}
+
+	/**
+	 * @param data
+	 *            the data to set
+	 */
+	public void setData(int data) {
+		this.data = data;
+	}
+
+	/**
+	 * @return the response
+	 */
+	public String getResponse() {
+		return response;
+	}
+
+	/**
+	 * @param response
+	 *            the response to set
+	 */
+	public void setResponse(String response) {
+		this.response = response;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "SearchResult [data=" + data + ", response=" + response + "]";
+	}
+
+}

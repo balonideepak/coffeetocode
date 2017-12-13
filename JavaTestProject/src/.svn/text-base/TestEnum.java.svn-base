@@ -1,0 +1,13 @@
+
+public enum TestEnum {
+
+
+	SOA("SOA"),
+	OSB("OSB");
+	private String type;
+	TestEnum(String type)
+	{
+		this.type = type;
+	}
+
+}

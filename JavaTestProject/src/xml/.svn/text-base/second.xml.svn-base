@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE novel SYSTEM [
+<!ENTITY chap1 SYSTEM "chapter1.xml">
+<!ENTITY chap2 SYSTEM "mydocs/chapter2.xml">
+<!ENTITY chap3 SYSTEM "mydocs/chapter3.xml">
+<!ENTITY chap4 SYSTEM "mydocs/chapter4.xml">
+<!ENTITY chap5 SYSTEM "mydocs/chapter5.xml">
+]>
+<novel>
+  <header>
+    ...blah blah...
+  </header>
+&chap1; 
+&chap2; 
+&chap3; 
+&chap4; 
+&chap5; 
+</novel>

@@ -1,0 +1,33 @@
+package wsdl;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+
+import javax.wsdl.Definition;
+import javax.wsdl.WSDLException;
+import javax.wsdl.xml.WSDLLocator;
+import javax.wsdl.xml.WSDLReader;
+
+import com.ibm.wsdl.xml.WSDLReaderImpl;
+
+public class WSDLGenerator {
+	public static void main(String[] args) throws WSDLException, FileNotFoundException {
+
+		Definition definition = null;
+		WSDLDefinition wsdlDefinition = null;
+		File wsdlFileName = new File("D:/Eclipse_Workspace/JavaTestProject/test.wsdl");
+		InputStream entityStream=new FileInputStream(wsdlFileName);
+		WSDLLocator wsdlLocator=new MyWSDLLocator("D:/Eclipse_Workspace/JavaTestProject/",entityStream);
+
+		WSDLReader wsdlReader=new WSDLReaderImpl();
+		definition =wsdlReader.readWSDL(wsdlLocator);
+		wsdlDefinition = new WSDLDefinition();
+		wsdlDefinition.setDefinition(definition);
+		byte[] artifactDetail = wsdlDefinition.getArtifactDetail();
+		for (byte b : artifactDetail) {
+			System.out.print((char)b);
+		}
+	}
+}

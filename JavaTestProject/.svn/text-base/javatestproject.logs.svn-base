@@ -1,0 +1,162 @@
+2014-02-08 20:20:14 DEBUG HttpClient:72 - Java version: 1.6.0_05
+2014-02-08 20:20:14 DEBUG HttpClient:73 - Java vendor: Sun Microsystems Inc.
+2014-02-08 20:20:14 DEBUG HttpClient:74 - Java class path: D:\Programs\EclipseWorkspace\JavaTestProject\bin;D:\Programs\eclipse\plugins\org.junit_4.8.1.v4_8_1_v20100427-1100\junit.jar;D:\Programs\eclipse\plugins\org.hamcrest.core_1.1.0.v20090501071000.jar;D:\Programs\EclipseWorkspace\JavaTestProject\lib\log4j-1.2.16.jar;D:\Programs\EclipseWorkspace\JavaTestProject\lib\mysql-connector-java-5.0.4-bin.jar;D:\Programs\EclipseWorkspace\JavaTestProject\lib\org.apache.commons.httpclient.jar;D:\Programs\EclipseWorkspace\JavaTestProject\lib\commons-logging-1.1.1.jar;D:\Programs\EclipseWorkspace\JavaTestProject\lib\commons-codec.jar
+2014-02-08 20:20:14 DEBUG HttpClient:75 - Operating system name: Windows Vista
+2014-02-08 20:20:14 DEBUG HttpClient:76 - Operating system architecture: x86
+2014-02-08 20:20:14 DEBUG HttpClient:77 - Operating system version: 6.0
+2014-02-08 20:20:14 DEBUG HttpClient:82 - SUN 1.6: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS keystore; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+2014-02-08 20:20:14 DEBUG HttpClient:82 - SunRsaSign 1.5: Sun RSA signature provider
+2014-02-08 20:20:14 DEBUG HttpClient:82 - SunJSSE 1.6: Sun JSSE provider(PKCS12, SunX509 key/trust factories, SSLv3, TLSv1)
+2014-02-08 20:20:14 DEBUG HttpClient:82 - SunJCE 1.6: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+2014-02-08 20:20:14 DEBUG HttpClient:82 - SunJGSS 1.0: Sun (Kerberos v5, SPNEGO)
+2014-02-08 20:20:14 DEBUG HttpClient:82 - SunSASL 1.5: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5)
+2014-02-08 20:20:14 DEBUG HttpClient:82 - XMLDSig 1.0: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory)
+2014-02-08 20:20:14 DEBUG HttpClient:82 - SunPCSC 1.6: Sun PC/SC provider
+2014-02-08 20:20:14 DEBUG HttpClient:82 - SunMSCAPI 1.6: Sun's Microsoft Crypto API provider
+2014-02-08 20:20:14 DEBUG DefaultHttpParams:151 - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1-rc1
+2014-02-08 20:20:14 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.version = HTTP/1.1
+2014-02-08 20:20:14 DEBUG DefaultHttpParams:151 - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+2014-02-08 20:20:14 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.cookie-policy = default
+2014-02-08 20:20:14 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.element-charset = US-ASCII
+2014-02-08 20:20:14 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = ISO-8859-1
+2014-02-08 20:20:14 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@47858e
+2014-02-08 20:20:14 DEBUG DefaultHttpParams:151 - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+2014-02-08 20:20:14 DEBUG HttpConnection:692 - Open connection to www.google.com:80
+2014-02-08 20:20:14 DEBUG header:70 - >> "GET / HTTP/1.1[\r][\n]"
+2014-02-08 20:20:14 DEBUG HttpMethodBase:1344 - Adding Host request header
+2014-02-08 20:20:14 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1-rc1[\r][\n]"
+2014-02-08 20:20:14 DEBUG header:70 - >> "Host: www.google.com[\r][\n]"
+2014-02-08 20:20:14 DEBUG header:70 - >> "[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "HTTP/1.1 302 Found[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "Location: http://www.google.co.in/?gws_rd=cr&ei=L0T2Uoe8HauRigf-g4GoBA[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "Cache-Control: private[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "Set-Cookie: PREF=ID=7424aec5dbd29fb9:FF=0:TM=1391871023:LM=1391871023:S=o4Q922lDO9Vn5KF_; expires=Mon, 08-Feb-2016 14:50:23 GMT; path=/; domain=.google.com[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "Set-Cookie: NID=67=e6eN14bF1qhqZOUoziQzPpzK2wPeRqCGTctsugN-uggspYftk9um66dBjc6adRr7NLXtuG5s3lJyVppmnbWgquqKiCUWtlUNXYdUQRTy2tNgQRF0TA_7schtxUOMz-fo; expires=Sun, 10-Aug-2014 14:50:23 GMT; path=/; domain=.google.com; HttpOnly[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "P3P: CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "Date: Sat, 08 Feb 2014 14:50:23 GMT[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "Server: gws[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "Content-Length: 261[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "Alternate-Protocol: 80:quic[\r][\n]"
+2014-02-08 20:20:15 DEBUG HttpMethodBase:1643 - Cookie accepted: "$Version=0; PREF=ID=7424aec5dbd29fb9:FF=0:TM=1391871023:LM=1391871023:S=o4Q922lDO9Vn5KF_; $Path=/; $Domain=.google.com"
+2014-02-08 20:20:15 DEBUG CookieSpec:337 - Unrecognized cookie attribute: name=HttpOnly, value=null
+2014-02-08 20:20:15 DEBUG HttpMethodBase:1643 - Cookie accepted: "$Version=0; NID=67=e6eN14bF1qhqZOUoziQzPpzK2wPeRqCGTctsugN-uggspYftk9um66dBjc6adRr7NLXtuG5s3lJyVppmnbWgquqKiCUWtlUNXYdUQRTy2tNgQRF0TA_7schtxUOMz-fo; $Path=/; $Domain=.google.com"
+2014-02-08 20:20:15 DEBUG HttpMethodDirector:818 - Redirect required
+2014-02-08 20:20:15 DEBUG HttpMethodDirector:583 - Redirect requested to location 'http://www.google.co.in/?gws_rd=cr&ei=L0T2Uoe8HauRigf-g4GoBA'
+2014-02-08 20:20:15 DEBUG HttpMethodDirector:644 - Redirecting from 'http://www.google.com:80/' to 'http://www.google.co.in/
+2014-02-08 20:20:15 DEBUG HttpMethodDirector:188 - Execute redirect 1 of 100
+2014-02-08 20:20:15 DEBUG content:70 - << "<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">[\n]"
+2014-02-08 20:20:15 DEBUG content:70 - << "<TITLE>302 Moved</TITLE></HEAD><BODY>[\n]"
+2014-02-08 20:20:15 DEBUG content:70 - << "<H1>302 Moved</H1>[\n]"
+2014-02-08 20:20:15 DEBUG content:70 - << "The document has moved[\n]"
+2014-02-08 20:20:15 DEBUG content:70 - << "<A HREF="http://www.google.co.in/?gws_rd=cr&amp;ei=L0T2Uoe8HauRigf-g4GoBA">here</A>.[\r][\n]"
+2014-02-08 20:20:15 DEBUG content:70 - << "</BODY></HTML>[\r][\n]"
+2014-02-08 20:20:15 DEBUG HttpMethodBase:1016 - Resorting to protocol version default close connection policy
+2014-02-08 20:20:15 DEBUG HttpMethodBase:1020 - Should NOT close connection, using HTTP/1.1
+2014-02-08 20:20:15 DEBUG HttpConnection:1176 - Connection is locked.  Call to releaseConnection() ignored.
+2014-02-08 20:20:15 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2014-02-08 20:20:15 DEBUG HttpConnection:692 - Open connection to www.google.co.in:80
+2014-02-08 20:20:15 DEBUG header:70 - >> "GET /?gws_rd=cr&ei=L0T2Uoe8HauRigf-g4GoBA HTTP/1.1[\r][\n]"
+2014-02-08 20:20:15 DEBUG HttpMethodBase:1344 - Adding Host request header
+2014-02-08 20:20:15 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1-rc1[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - >> "Host: www.google.co.in[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - >> "[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "Date: Sat, 08 Feb 2014 14:50:23 GMT[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "Expires: -1[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "Cache-Control: private, max-age=0[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "Content-Type: text/html; charset=ISO-8859-1[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "Set-Cookie: PREF=ID=1b4d3f28fc629fe8:FF=0:TM=1391871023:LM=1391871023:S=Ds5BbWwMqas_hKxb; expires=Mon, 08-Feb-2016 14:50:23 GMT; path=/; domain=.google.co.in[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "Set-Cookie: NID=67=ahzM6zZpCAKZrc8DTueX-bpysSN9_R6qxHgOwmv0-CkUIpjpBLqr6NUHJjFusZS-GXYGOaTZaRXPwpjdUjh6g5uF3HT4SitqrPLJeb5CWBZJyDda0YsfOO7MzCJydXqN; expires=Sun, 10-Aug-2014 14:50:23 GMT; path=/; domain=.google.co.in; HttpOnly[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "P3P: CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "Server: gws[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "Alternate-Protocol: 80:quic[\r][\n]"
+2014-02-08 20:20:15 DEBUG header:70 - << "Transfer-Encoding: chunked[\r][\n]"
+2014-02-08 20:20:15 DEBUG HttpMethodBase:1643 - Cookie accepted: "$Version=0; PREF=ID=1b4d3f28fc629fe8:FF=0:TM=1391871023:LM=1391871023:S=Ds5BbWwMqas_hKxb; $Path=/; $Domain=.google.co.in"
+2014-02-08 20:20:15 DEBUG CookieSpec:337 - Unrecognized cookie attribute: name=HttpOnly, value=null
+2014-02-08 20:20:15 DEBUG HttpMethodBase:1643 - Cookie accepted: "$Version=0; NID=67=ahzM6zZpCAKZrc8DTueX-bpysSN9_R6qxHgOwmv0-CkUIpjpBLqr6NUHJjFusZS-GXYGOaTZaRXPwpjdUjh6g5uF3HT4SitqrPLJeb5CWBZJyDda0YsfOO7MzCJydXqN; $Path=/; $Domain=.google.co.in"
+2014-02-08 20:21:36 DEBUG HttpClient:72 - Java version: 1.6.0_05
+2014-02-08 20:21:36 DEBUG HttpClient:73 - Java vendor: Sun Microsystems Inc.
+2014-02-08 20:21:36 DEBUG HttpClient:74 - Java class path: D:\Programs\EclipseWorkspace\JavaTestProject\bin;D:\Programs\eclipse\plugins\org.junit_4.8.1.v4_8_1_v20100427-1100\junit.jar;D:\Programs\eclipse\plugins\org.hamcrest.core_1.1.0.v20090501071000.jar;D:\Programs\EclipseWorkspace\JavaTestProject\lib\log4j-1.2.16.jar;D:\Programs\EclipseWorkspace\JavaTestProject\lib\mysql-connector-java-5.0.4-bin.jar;D:\Programs\EclipseWorkspace\JavaTestProject\lib\org.apache.commons.httpclient.jar;D:\Programs\EclipseWorkspace\JavaTestProject\lib\commons-codec.jar;D:\Programs\EclipseWorkspace\JavaTestProject\lib\commons-logging-1.1.1.jar
+2014-02-08 20:21:36 DEBUG HttpClient:75 - Operating system name: Windows Vista
+2014-02-08 20:21:36 DEBUG HttpClient:76 - Operating system architecture: x86
+2014-02-08 20:21:36 DEBUG HttpClient:77 - Operating system version: 6.0
+2014-02-08 20:21:36 DEBUG HttpClient:82 - SUN 1.6: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS keystore; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+2014-02-08 20:21:36 DEBUG HttpClient:82 - SunRsaSign 1.5: Sun RSA signature provider
+2014-02-08 20:21:36 DEBUG HttpClient:82 - SunJSSE 1.6: Sun JSSE provider(PKCS12, SunX509 key/trust factories, SSLv3, TLSv1)
+2014-02-08 20:21:36 DEBUG HttpClient:82 - SunJCE 1.6: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+2014-02-08 20:21:36 DEBUG HttpClient:82 - SunJGSS 1.0: Sun (Kerberos v5, SPNEGO)
+2014-02-08 20:21:36 DEBUG HttpClient:82 - SunSASL 1.5: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5)
+2014-02-08 20:21:36 DEBUG HttpClient:82 - XMLDSig 1.0: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory)
+2014-02-08 20:21:36 DEBUG HttpClient:82 - SunPCSC 1.6: Sun PC/SC provider
+2014-02-08 20:21:36 DEBUG HttpClient:82 - SunMSCAPI 1.6: Sun's Microsoft Crypto API provider
+2014-02-08 20:21:36 DEBUG DefaultHttpParams:151 - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1-rc1
+2014-02-08 20:21:36 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.version = HTTP/1.1
+2014-02-08 20:21:36 DEBUG DefaultHttpParams:151 - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+2014-02-08 20:21:36 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.cookie-policy = default
+2014-02-08 20:21:36 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.element-charset = US-ASCII
+2014-02-08 20:21:36 DEBUG DefaultHttpParams:151 - Set parameter http.protocol.content-charset = ISO-8859-1
+2014-02-08 20:21:36 DEBUG DefaultHttpParams:151 - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@47858e
+2014-02-08 20:21:36 DEBUG DefaultHttpParams:151 - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+2014-02-08 20:21:36 DEBUG HttpConnection:692 - Open connection to www.google.com:80
+2014-02-08 20:21:36 DEBUG header:70 - >> "GET / HTTP/1.1[\r][\n]"
+2014-02-08 20:21:36 DEBUG HttpMethodBase:1344 - Adding Host request header
+2014-02-08 20:21:36 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1-rc1[\r][\n]"
+2014-02-08 20:21:36 DEBUG header:70 - >> "Host: www.google.com[\r][\n]"
+2014-02-08 20:21:36 DEBUG header:70 - >> "[\r][\n]"
+2014-02-08 20:21:36 DEBUG header:70 - << "HTTP/1.1 302 Found[\r][\n]"
+2014-02-08 20:21:36 DEBUG header:70 - << "Location: http://www.google.co.in/?gws_rd=cr&ei=gUT2Uu7bGLGZiAf_m4CgDQ[\r][\n]"
+2014-02-08 20:21:36 DEBUG header:70 - << "Cache-Control: private[\r][\n]"
+2014-02-08 20:21:36 DEBUG header:70 - << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2014-02-08 20:21:36 DEBUG header:70 - << "Set-Cookie: PREF=ID=9c5a2c609163ba52:FF=0:TM=1391871105:LM=1391871105:S=_u6DdQjz9EvhAkCS; expires=Mon, 08-Feb-2016 14:51:45 GMT; path=/; domain=.google.com[\r][\n]"
+2014-02-08 20:21:36 DEBUG header:70 - << "Set-Cookie: NID=67=UGJ5R_u9Gi0r7WxMneqUeh-E29tna4z7yiZFJpVT8lxY_oWSfzSpuEQY9KF2xAMoX0GwCxeuNSXhgs7YSoDutL9eTTPWNuFjehBZRlU7gSqdIR3e8oRXMZBkPMXkvPL-; expires=Sun, 10-Aug-2014 14:51:45 GMT; path=/; domain=.google.com; HttpOnly[\r][\n]"
+2014-02-08 20:21:36 DEBUG header:70 - << "P3P: CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."[\r][\n]"
+2014-02-08 20:21:36 DEBUG header:70 - << "Date: Sat, 08 Feb 2014 14:51:45 GMT[\r][\n]"
+2014-02-08 20:21:36 DEBUG header:70 - << "Server: gws[\r][\n]"
+2014-02-08 20:21:36 DEBUG header:70 - << "Content-Length: 261[\r][\n]"
+2014-02-08 20:21:36 DEBUG header:70 - << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2014-02-08 20:21:36 DEBUG header:70 - << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2014-02-08 20:21:36 DEBUG header:70 - << "Alternate-Protocol: 80:quic[\r][\n]"
+2014-02-08 20:21:37 DEBUG HttpMethodBase:1643 - Cookie accepted: "$Version=0; PREF=ID=9c5a2c609163ba52:FF=0:TM=1391871105:LM=1391871105:S=_u6DdQjz9EvhAkCS; $Path=/; $Domain=.google.com"
+2014-02-08 20:21:37 DEBUG CookieSpec:337 - Unrecognized cookie attribute: name=HttpOnly, value=null
+2014-02-08 20:21:37 DEBUG HttpMethodBase:1643 - Cookie accepted: "$Version=0; NID=67=UGJ5R_u9Gi0r7WxMneqUeh-E29tna4z7yiZFJpVT8lxY_oWSfzSpuEQY9KF2xAMoX0GwCxeuNSXhgs7YSoDutL9eTTPWNuFjehBZRlU7gSqdIR3e8oRXMZBkPMXkvPL-; $Path=/; $Domain=.google.com"
+2014-02-08 20:21:37 DEBUG HttpMethodDirector:818 - Redirect required
+2014-02-08 20:21:37 DEBUG HttpMethodDirector:583 - Redirect requested to location 'http://www.google.co.in/?gws_rd=cr&ei=gUT2Uu7bGLGZiAf_m4CgDQ'
+2014-02-08 20:21:37 DEBUG HttpMethodDirector:644 - Redirecting from 'http://www.google.com:80/' to 'http://www.google.co.in/
+2014-02-08 20:21:37 DEBUG HttpMethodDirector:188 - Execute redirect 1 of 100
+2014-02-08 20:21:37 DEBUG content:70 - << "<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">[\n]"
+2014-02-08 20:21:37 DEBUG content:70 - << "<TITLE>302 Moved</TITLE></HEAD><BODY>[\n]"
+2014-02-08 20:21:37 DEBUG content:70 - << "<H1>302 Moved</H1>[\n]"
+2014-02-08 20:21:37 DEBUG content:70 - << "The document has moved[\n]"
+2014-02-08 20:21:37 DEBUG content:70 - << "<A HREF="http://www.google.co.in/?gws_rd=cr&amp;ei=gUT2Uu7bGLGZiAf_m4CgDQ">here</A>.[\r][\n]"
+2014-02-08 20:21:37 DEBUG content:70 - << "</BODY></HTML>[\r][\n]"
+2014-02-08 20:21:37 DEBUG HttpMethodBase:1016 - Resorting to protocol version default close connection policy
+2014-02-08 20:21:37 DEBUG HttpMethodBase:1020 - Should NOT close connection, using HTTP/1.1
+2014-02-08 20:21:37 DEBUG HttpConnection:1176 - Connection is locked.  Call to releaseConnection() ignored.
+2014-02-08 20:21:37 DEBUG HttpConnection:1178 - Releasing connection back to connection manager.
+2014-02-08 20:21:37 DEBUG HttpConnection:692 - Open connection to www.google.co.in:80
+2014-02-08 20:21:37 DEBUG header:70 - >> "GET /?gws_rd=cr&ei=gUT2Uu7bGLGZiAf_m4CgDQ HTTP/1.1[\r][\n]"
+2014-02-08 20:21:37 DEBUG HttpMethodBase:1344 - Adding Host request header
+2014-02-08 20:21:37 DEBUG header:70 - >> "User-Agent: Jakarta Commons-HttpClient/3.1-rc1[\r][\n]"
+2014-02-08 20:21:37 DEBUG header:70 - >> "Host: www.google.co.in[\r][\n]"
+2014-02-08 20:21:37 DEBUG header:70 - >> "[\r][\n]"
+2014-02-08 20:21:37 DEBUG header:70 - << "HTTP/1.1 200 OK[\r][\n]"
+2014-02-08 20:21:37 DEBUG header:70 - << "Date: Sat, 08 Feb 2014 14:51:45 GMT[\r][\n]"
+2014-02-08 20:21:37 DEBUG header:70 - << "Expires: -1[\r][\n]"
+2014-02-08 20:21:37 DEBUG header:70 - << "Cache-Control: private, max-age=0[\r][\n]"
+2014-02-08 20:21:37 DEBUG header:70 - << "Content-Type: text/html; charset=ISO-8859-1[\r][\n]"
+2014-02-08 20:21:37 DEBUG header:70 - << "Set-Cookie: PREF=ID=874058bdc273b57c:FF=0:TM=1391871105:LM=1391871105:S=IISDCDwp9ma4UMVE; expires=Mon, 08-Feb-2016 14:51:45 GMT; path=/; domain=.google.co.in[\r][\n]"
+2014-02-08 20:21:37 DEBUG header:70 - << "Set-Cookie: NID=67=PlNJrJQouUx1bjgwZgcOy2OgkgdMXmHuLgS0bPf-XiJmrG3t0Vk8o5i675sjR3KM5_oz3W6cEB_7srZgXMgnc8vb2ghBfqnCoibz2Kn3kOWiUI3ZZDTjUi7vPkaoYhzR; expires=Sun, 10-Aug-2014 14:51:45 GMT; path=/; domain=.google.co.in; HttpOnly[\r][\n]"
+2014-02-08 20:21:37 DEBUG header:70 - << "P3P: CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."[\r][\n]"
+2014-02-08 20:21:37 DEBUG header:70 - << "Server: gws[\r][\n]"
+2014-02-08 20:21:37 DEBUG header:70 - << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2014-02-08 20:21:37 DEBUG header:70 - << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2014-02-08 20:21:37 DEBUG header:70 - << "Alternate-Protocol: 80:quic[\r][\n]"
+2014-02-08 20:21:37 DEBUG header:70 - << "Transfer-Encoding: chunked[\r][\n]"
+2014-02-08 20:21:37 DEBUG HttpMethodBase:1643 - Cookie accepted: "$Version=0; PREF=ID=874058bdc273b57c:FF=0:TM=1391871105:LM=1391871105:S=IISDCDwp9ma4UMVE; $Path=/; $Domain=.google.co.in"
+2014-02-08 20:21:37 DEBUG CookieSpec:337 - Unrecognized cookie attribute: name=HttpOnly, value=null
+2014-02-08 20:21:37 DEBUG HttpMethodBase:1643 - Cookie accepted: "$Version=0; NID=67=PlNJrJQouUx1bjgwZgcOy2OgkgdMXmHuLgS0bPf-XiJmrG3t0Vk8o5i675sjR3KM5_oz3W6cEB_7srZgXMgnc8vb2ghBfqnCoibz2Kn3kOWiUI3ZZDTjUi7vPkaoYhzR; $Path=/; $Domain=.google.co.in"

@@ -1,0 +1,7 @@
+public class A {
+	public void methodA() {
+
+		B b=new B();
+		System.out.println(b.methodB());
+	}
+}

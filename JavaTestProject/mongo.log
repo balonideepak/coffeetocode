@@ -1,0 +1,183 @@
+**************************************************************************************
+Below will be the operations performed on mongodb for date=Mon Jul 31 22:32:08 IST 2017
+**************************************************************************************
+
+Printing student table data....
+{ "_id" : { "$oid" : "597f31afeea2f80416003275" }, "name" : "Johny", "class" : "4" }
+{ "_id" : { "$oid" : "597f31cfeea2f80416003276" }, "name" : "Johny", "class" : "4" }
+{ "_id" : { "$oid" : "597f325deea2f80416003277" }, "name" : "Mark", "class" : "3" }
+{ "_id" : { "$oid" : "597f5971d3fd5731e4acfbe6" }, "name" : "Mathews311", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f59b6d3fd5731f003d661" }, "name" : "randomname_9", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5cadd3fd571c48ae1fdf" }, "name" : "randomname_39", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5cd1d3fd5704d8386e12" }, "name" : "randomname_34", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d18d3fd571b00574ca5" }, "name" : "randomname_20", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d40d3fd5736842e3058" }, "name" : "randomname_45", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d5dd3fd5719d4fe0b32" }, "name" : "randomname_50", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d6ed3fd57085c0cd24f" }, "name" : "randomname_47", "class" : "Maths" }
+Inserting data in students collection with id=15
+Searching the document having id=15
+{ "_id" : { "$oid" : "597f6290d3fd5731244d2454" }, "name" : "randomname_15", "class" : "Maths" }
+Printing student table data after insertion of one record....
+{ "_id" : { "$oid" : "597f31afeea2f80416003275" }, "name" : "Johny", "class" : "4" }
+{ "_id" : { "$oid" : "597f31cfeea2f80416003276" }, "name" : "Johny", "class" : "4" }
+{ "_id" : { "$oid" : "597f325deea2f80416003277" }, "name" : "Mark", "class" : "3" }
+{ "_id" : { "$oid" : "597f5971d3fd5731e4acfbe6" }, "name" : "Mathews311", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f59b6d3fd5731f003d661" }, "name" : "randomname_9", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5cadd3fd571c48ae1fdf" }, "name" : "randomname_39", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5cd1d3fd5704d8386e12" }, "name" : "randomname_34", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d18d3fd571b00574ca5" }, "name" : "randomname_20", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d40d3fd5736842e3058" }, "name" : "randomname_45", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d5dd3fd5719d4fe0b32" }, "name" : "randomname_50", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d6ed3fd57085c0cd24f" }, "name" : "randomname_47", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f6290d3fd5731244d2454" }, "name" : "randomname_15", "class" : "Maths" }
+Removing data from collection having id=15
+Printing student table data after deletion of record having id=15
+{ "_id" : { "$oid" : "597f31afeea2f80416003275" }, "name" : "Johny", "class" : "4" }
+{ "_id" : { "$oid" : "597f31cfeea2f80416003276" }, "name" : "Johny", "class" : "4" }
+{ "_id" : { "$oid" : "597f325deea2f80416003277" }, "name" : "Mark", "class" : "3" }
+{ "_id" : { "$oid" : "597f5971d3fd5731e4acfbe6" }, "name" : "Mathews311", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f59b6d3fd5731f003d661" }, "name" : "randomname_9", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5cadd3fd571c48ae1fdf" }, "name" : "randomname_39", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5cd1d3fd5704d8386e12" }, "name" : "randomname_34", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d18d3fd571b00574ca5" }, "name" : "randomname_20", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d40d3fd5736842e3058" }, "name" : "randomname_45", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d5dd3fd5719d4fe0b32" }, "name" : "randomname_50", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d6ed3fd57085c0cd24f" }, "name" : "randomname_47", "class" : "Maths" }
+
+***************************************************************************************
+Below will be the operations performed on mongodb for date=Mon Jul 31 22:32:36 IST 2017
+***************************************************************************************
+
+Printing student table data....
+{ "_id" : { "$oid" : "597f31afeea2f80416003275" }, "name" : "Johny", "class" : "4" }
+{ "_id" : { "$oid" : "597f31cfeea2f80416003276" }, "name" : "Johny", "class" : "4" }
+{ "_id" : { "$oid" : "597f325deea2f80416003277" }, "name" : "Mark", "class" : "3" }
+{ "_id" : { "$oid" : "597f5971d3fd5731e4acfbe6" }, "name" : "Mathews311", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f59b6d3fd5731f003d661" }, "name" : "randomname_9", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5cadd3fd571c48ae1fdf" }, "name" : "randomname_39", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5cd1d3fd5704d8386e12" }, "name" : "randomname_34", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d18d3fd571b00574ca5" }, "name" : "randomname_20", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d40d3fd5736842e3058" }, "name" : "randomname_45", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d5dd3fd5719d4fe0b32" }, "name" : "randomname_50", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d6ed3fd57085c0cd24f" }, "name" : "randomname_47", "class" : "Maths" }
+Inserting data in students collection with id=47
+Searching the document having id=47
+{ "_id" : { "$oid" : "597f62acd3fd5730fc64f9a6" }, "name" : "randomname_47", "class" : "Maths" }
+Printing student table data after insertion of one record....
+{ "_id" : { "$oid" : "597f31afeea2f80416003275" }, "name" : "Johny", "class" : "4" }
+{ "_id" : { "$oid" : "597f31cfeea2f80416003276" }, "name" : "Johny", "class" : "4" }
+{ "_id" : { "$oid" : "597f325deea2f80416003277" }, "name" : "Mark", "class" : "3" }
+{ "_id" : { "$oid" : "597f5971d3fd5731e4acfbe6" }, "name" : "Mathews311", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f59b6d3fd5731f003d661" }, "name" : "randomname_9", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5cadd3fd571c48ae1fdf" }, "name" : "randomname_39", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5cd1d3fd5704d8386e12" }, "name" : "randomname_34", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d18d3fd571b00574ca5" }, "name" : "randomname_20", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d40d3fd5736842e3058" }, "name" : "randomname_45", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d5dd3fd5719d4fe0b32" }, "name" : "randomname_50", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d6ed3fd57085c0cd24f" }, "name" : "randomname_47", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f62acd3fd5730fc64f9a6" }, "name" : "randomname_47", "class" : "Maths" }
+Removing data from collection having id=47
+Printing student table data after deletion of record having id=47
+{ "_id" : { "$oid" : "597f31afeea2f80416003275" }, "name" : "Johny", "class" : "4" }
+{ "_id" : { "$oid" : "597f31cfeea2f80416003276" }, "name" : "Johny", "class" : "4" }
+{ "_id" : { "$oid" : "597f325deea2f80416003277" }, "name" : "Mark", "class" : "3" }
+{ "_id" : { "$oid" : "597f5971d3fd5731e4acfbe6" }, "name" : "Mathews311", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f59b6d3fd5731f003d661" }, "name" : "randomname_9", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5cadd3fd571c48ae1fdf" }, "name" : "randomname_39", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5cd1d3fd5704d8386e12" }, "name" : "randomname_34", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d18d3fd571b00574ca5" }, "name" : "randomname_20", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d40d3fd5736842e3058" }, "name" : "randomname_45", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d5dd3fd5719d4fe0b32" }, "name" : "randomname_50", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d6ed3fd57085c0cd24f" }, "name" : "randomname_47", "class" : "Maths" }
+
+***************************************************************************************
+Below will be the operations performed on mongodb for date=Mon Jul 31 22:33:00 IST 2017
+***************************************************************************************
+
+Printing student table data....
+{ "_id" : { "$oid" : "597f31afeea2f80416003275" }, "name" : "Johny", "class" : "4" }
+{ "_id" : { "$oid" : "597f31cfeea2f80416003276" }, "name" : "Johny", "class" : "4" }
+{ "_id" : { "$oid" : "597f325deea2f80416003277" }, "name" : "Mark", "class" : "3" }
+{ "_id" : { "$oid" : "597f5971d3fd5731e4acfbe6" }, "name" : "Mathews311", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f59b6d3fd5731f003d661" }, "name" : "randomname_9", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5cadd3fd571c48ae1fdf" }, "name" : "randomname_39", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5cd1d3fd5704d8386e12" }, "name" : "randomname_34", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d18d3fd571b00574ca5" }, "name" : "randomname_20", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d40d3fd5736842e3058" }, "name" : "randomname_45", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d5dd3fd5719d4fe0b32" }, "name" : "randomname_50", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d6ed3fd57085c0cd24f" }, "name" : "randomname_47", "class" : "Maths" }
+Inserting data in students collection with id=26
+Searching the document having id=26
+{ "_id" : { "$oid" : "597f62c4d3fd5729ec07f1ab" }, "name" : "randomname_26", "class" : "Maths" }
+Printing student table data after insertion of one record....
+{ "_id" : { "$oid" : "597f31afeea2f80416003275" }, "name" : "Johny", "class" : "4" }
+{ "_id" : { "$oid" : "597f31cfeea2f80416003276" }, "name" : "Johny", "class" : "4" }
+{ "_id" : { "$oid" : "597f325deea2f80416003277" }, "name" : "Mark", "class" : "3" }
+{ "_id" : { "$oid" : "597f5971d3fd5731e4acfbe6" }, "name" : "Mathews311", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f59b6d3fd5731f003d661" }, "name" : "randomname_9", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5cadd3fd571c48ae1fdf" }, "name" : "randomname_39", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5cd1d3fd5704d8386e12" }, "name" : "randomname_34", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d18d3fd571b00574ca5" }, "name" : "randomname_20", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d40d3fd5736842e3058" }, "name" : "randomname_45", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d5dd3fd5719d4fe0b32" }, "name" : "randomname_50", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d6ed3fd57085c0cd24f" }, "name" : "randomname_47", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f62c4d3fd5729ec07f1ab" }, "name" : "randomname_26", "class" : "Maths" }
+Removing data from collection having id=26
+Printing student table data after deletion of record having id=26
+{ "_id" : { "$oid" : "597f31afeea2f80416003275" }, "name" : "Johny", "class" : "4" }
+{ "_id" : { "$oid" : "597f31cfeea2f80416003276" }, "name" : "Johny", "class" : "4" }
+{ "_id" : { "$oid" : "597f325deea2f80416003277" }, "name" : "Mark", "class" : "3" }
+{ "_id" : { "$oid" : "597f5971d3fd5731e4acfbe6" }, "name" : "Mathews311", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f59b6d3fd5731f003d661" }, "name" : "randomname_9", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5cadd3fd571c48ae1fdf" }, "name" : "randomname_39", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5cd1d3fd5704d8386e12" }, "name" : "randomname_34", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d18d3fd571b00574ca5" }, "name" : "randomname_20", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d40d3fd5736842e3058" }, "name" : "randomname_45", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d5dd3fd5719d4fe0b32" }, "name" : "randomname_50", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d6ed3fd57085c0cd24f" }, "name" : "randomname_47", "class" : "Maths" }
+
+***************************************************************************************
+Below will be the operations performed on mongodb for date=Mon Jul 31 23:41:30 IST 2017
+***************************************************************************************
+
+Printing student table data....
+{ "_id" : { "$oid" : "597f31afeea2f80416003275" }, "name" : "Johny", "class" : "4" }
+{ "_id" : { "$oid" : "597f31cfeea2f80416003276" }, "name" : "Johny", "class" : "4" }
+{ "_id" : { "$oid" : "597f325deea2f80416003277" }, "name" : "Mark", "class" : "3" }
+{ "_id" : { "$oid" : "597f5971d3fd5731e4acfbe6" }, "name" : "Mathews311", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f59b6d3fd5731f003d661" }, "name" : "randomname_9", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5cadd3fd571c48ae1fdf" }, "name" : "randomname_39", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5cd1d3fd5704d8386e12" }, "name" : "randomname_34", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d18d3fd571b00574ca5" }, "name" : "randomname_20", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d40d3fd5736842e3058" }, "name" : "randomname_45", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d5dd3fd5719d4fe0b32" }, "name" : "randomname_50", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d6ed3fd57085c0cd24f" }, "name" : "randomname_47", "class" : "Maths" }
+Inserting data in students collection with id=40
+Searching the document having id=40
+{ "_id" : { "$oid" : "597f72d2d3fd5735ec235440" }, "name" : "randomname_40", "class" : "Maths" }
+Printing student table data after insertion of one record....
+{ "_id" : { "$oid" : "597f31afeea2f80416003275" }, "name" : "Johny", "class" : "4" }
+{ "_id" : { "$oid" : "597f31cfeea2f80416003276" }, "name" : "Johny", "class" : "4" }
+{ "_id" : { "$oid" : "597f325deea2f80416003277" }, "name" : "Mark", "class" : "3" }
+{ "_id" : { "$oid" : "597f5971d3fd5731e4acfbe6" }, "name" : "Mathews311", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f59b6d3fd5731f003d661" }, "name" : "randomname_9", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5cadd3fd571c48ae1fdf" }, "name" : "randomname_39", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5cd1d3fd5704d8386e12" }, "name" : "randomname_34", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d18d3fd571b00574ca5" }, "name" : "randomname_20", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d40d3fd5736842e3058" }, "name" : "randomname_45", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d5dd3fd5719d4fe0b32" }, "name" : "randomname_50", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d6ed3fd57085c0cd24f" }, "name" : "randomname_47", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f72d2d3fd5735ec235440" }, "name" : "randomname_40", "class" : "Maths" }
+Removing data from collection having id=40
+Printing student table data after deletion of record having id=40
+{ "_id" : { "$oid" : "597f31afeea2f80416003275" }, "name" : "Johny", "class" : "4" }
+{ "_id" : { "$oid" : "597f31cfeea2f80416003276" }, "name" : "Johny", "class" : "4" }
+{ "_id" : { "$oid" : "597f325deea2f80416003277" }, "name" : "Mark", "class" : "3" }
+{ "_id" : { "$oid" : "597f5971d3fd5731e4acfbe6" }, "name" : "Mathews311", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f59b6d3fd5731f003d661" }, "name" : "randomname_9", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5cadd3fd571c48ae1fdf" }, "name" : "randomname_39", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5cd1d3fd5704d8386e12" }, "name" : "randomname_34", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d18d3fd571b00574ca5" }, "name" : "randomname_20", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d40d3fd5736842e3058" }, "name" : "randomname_45", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d5dd3fd5719d4fe0b32" }, "name" : "randomname_50", "class" : "Maths" }
+{ "_id" : { "$oid" : "597f5d6ed3fd57085c0cd24f" }, "name" : "randomname_47", "class" : "Maths" }

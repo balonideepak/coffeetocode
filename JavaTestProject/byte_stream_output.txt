@@ -1,0 +1,9 @@
+hello world ...
+U+00A2	¢	&#162;	&cent;	Cent sign 
+U+00A3	£	&#163;	&pound;	Pound sign
+U+00A4	¤	&#164;	&curren;	Currency sign
+U+00A5	¥	&#165;	&yen;	Yen sign
+U+00A6	¦	&#166;	&brvbar;	Broken bar
+U+00A7	§	&#167;	&sect;	Section sign
+U+00A8	¨	&#168;	&uml;	Diaeresis
+U+00A9	©

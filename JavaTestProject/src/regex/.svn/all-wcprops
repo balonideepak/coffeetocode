@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/26/JavaTestProject/src/regex
+END
+TestCaseRegex.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/JavaTestProject/src/regex/TestCaseRegex.java
+END
+TestRegex.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3/JavaTestProject/src/regex/TestRegex.java
+END
+CheckIfStringANumber.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/26/JavaTestProject/src/regex/CheckIfStringANumber.java
+END
+ReplaceMultipleSpace.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/26/JavaTestProject/src/regex/ReplaceMultipleSpace.java
+END

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bookStore>
+    <book>
+        <bookName>Learning java</bookName>
+        <authorName>John</authorName>
+        <ISBN>12345</ISBN>
+    </book>
+    <booksList>
+        <bookName>Learning java</bookName>
+        <authorName>John</authorName>
+        <ISBN>12345</ISBN>
+    </booksList>
+</bookStore>

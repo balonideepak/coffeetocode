@@ -1,0 +1,14 @@
+
+public class TestEnum1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		TestEnum valueOf = TestEnum.valueOf("OSB");
+		System.out.println(valueOf);
+		
+	}
+
+}

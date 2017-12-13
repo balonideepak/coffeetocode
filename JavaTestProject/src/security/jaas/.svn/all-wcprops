@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/64/JavaTestProject/src/security/jaas
+END
+JaasAuthenticationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/64/JavaTestProject/src/security/jaas/JaasAuthenticationTest.java
+END
+TestCallbackHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/66/JavaTestProject/src/security/jaas/TestCallbackHandler.java
+END
+TestLoginModule.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/64/JavaTestProject/src/security/jaas/TestLoginModule.java
+END

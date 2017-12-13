@@ -1,0 +1,12 @@
+
+public class Test123 {
+public static void main(String[] args) {
+	int[] arr=new int[2];
+	//arr[-1]=1;
+	//int g =(int)2147483648;
+	//long c = (long)9223372036854775808l;
+	byte b=255;
+	short s=(short)32768;
+	System.out.println(b);
+}
+}

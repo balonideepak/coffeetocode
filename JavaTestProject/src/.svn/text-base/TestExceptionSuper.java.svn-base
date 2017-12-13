@@ -1,0 +1,14 @@
+
+public class TestExceptionSuper {
+public void callMe(){
+	int i=0;
+	if(i<5){
+		throw new RuntimeException("i less than 5");
+	}
+	else{
+		throw new RuntimeException("i greater than 5");
+	}
+	
+	
+}
+}

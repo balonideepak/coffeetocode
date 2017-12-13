@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/commons-codec.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/json.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.0.4-bin.jar"/>
+	<classpathentry kind="lib" path="lib/org.apache.commons.httpclient.jar"/>
+	<classpathentry kind="lib" path="lib/quartz-2.1.7.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/wurfl-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/pdfbox-app-1.8.6.jar"/>
+	<classpathentry kind="lib" path="lib/PDFOne.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="D:/Softwares/lib/jms.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/lib/imq-4.2.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/lib/wsdl4j-1.5.2.jar/wsdl4j-1.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/lib/geoip2-2.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/lib/geoip2-2.1.0-with-dependencies/geoip2-2.1.0/lib/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/lib/geoip2-2.1.0-with-dependencies/geoip2-2.1.0/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/lib/geoip2-2.1.0-with-dependencies/geoip2-2.1.0/lib/geoip2-2.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/lib/geoip2-2.1.0-with-dependencies/geoip2-2.1.0/lib/geoip2-2.1.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/lib/geoip2-2.1.0-with-dependencies/geoip2-2.1.0/lib/geoip2-2.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/lib/geoip2-2.1.0-with-dependencies/geoip2-2.1.0/lib/google-http-client-1.19.0.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/lib/geoip2-2.1.0-with-dependencies/geoip2-2.1.0/lib/httpclient-4.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/lib/geoip2-2.1.0-with-dependencies/geoip2-2.1.0/lib/httpcore-4.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/lib/geoip2-2.1.0-with-dependencies/geoip2-2.1.0/lib/jackson-annotations-2.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/lib/geoip2-2.1.0-with-dependencies/geoip2-2.1.0/lib/jackson-core-2.4.3.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/lib/geoip2-2.1.0-with-dependencies/geoip2-2.1.0/lib/jackson-databind-2.4.3.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/lib/geoip2-2.1.0-with-dependencies/geoip2-2.1.0/lib/jsr305-1.3.9.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/lib/geoip2-2.1.0-with-dependencies/geoip2-2.1.0/lib/maxmind-db-1.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/xfire-core-1.2.6.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/language/java/spymemcached-2.10.3.jar"/>
+	<classpathentry kind="lib" path="lib/javax.persistence_2.1.0.v201304241213.jar"/>
+	<classpathentry kind="lib" path="lib/javax.persistence.source_2.1.0.v201304241213.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.persistence.jpa.modelgen_2.5.2.v20140319-9ad6abd.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.persistence.jpa.modelgen.source_2.5.2.v20140319-9ad6abd.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.persistence.jpars_2.5.2.v20140319-9ad6abd.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.persistence.jpars.source_2.5.2.v20140319-9ad6abd.jar"/>
+	<classpathentry kind="lib" path="META-INF"/>
+	<classpathentry kind="lib" path="D:/Softwares/language/java/DB/mongo-java-driver-3.4.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_31">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Softwares/language/java/poi-bin-3.17-20170915/poi-3.17/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/language/java/poi-bin-3.17-20170915/poi-3.17/poi-examples-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/language/java/poi-bin-3.17-20170915/poi-3.17/poi-excelant-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/language/java/poi-bin-3.17-20170915/poi-3.17/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/language/java/poi-bin-3.17-20170915/poi-3.17/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/language/java/poi-bin-3.17-20170915/poi-3.17/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/language/java/poi-bin-3.17-20170915/poi-3.17/ooxml-lib/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/language/java/poi-bin-3.17-20170915/poi-3.17/ooxml-lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/language/java/poi-bin-3.17-20170915/poi-3.17/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/language/java/poi-bin-3.17-20170915/poi-3.17/lib/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/language/java/poi-bin-3.17-20170915/poi-3.17/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/language/java/poi-bin-3.17-20170915/poi-3.17/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/language/java/poi-bin-3.17-20170915/poi-3.17/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/Softwares/language/java/jedis-2.9.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

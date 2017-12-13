@@ -1,0 +1,32 @@
+package xml.jaxb;
+
+import java.io.File;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+
+public class ObjectToXML {
+
+	/**
+	 * @author deepak.baloni 
+	 * @param args
+	 * @throws JAXBException 
+	 */
+	public static void main(String[] args) throws JAXBException {
+
+		Customer customer=new Customer();
+		customer.setAge(30);
+		customer.setId(12);
+		customer.setName("Alpha");
+		
+		File file=new File("xml_file.txt");
+		
+		JAXBContext jaxbContext=JAXBContext.newInstance(Customer.class);
+		Marshaller marshaller = jaxbContext.createMarshaller();
+		marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT,true );
+		marshaller.marshal(customer, file);
+		
+	}
+
+}

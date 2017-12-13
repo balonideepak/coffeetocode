@@ -1,0 +1,5 @@
+/** Test Login Configuration **/
+
+Test {
+   security.jaas.TestLoginModule required testOption=here_is_an_option;
+};

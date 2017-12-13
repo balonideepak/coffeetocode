@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="LockheedCorporationBPELProcess"
+	targetNamespace="http://xmlns.oracle.com/SOAApplication4/LockheedCorporation/LockheedCorporationBPELProcess"
+	xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+	xmlns:client="http://xmlns.oracle.com/SOAApplication4/LockheedCorporation/LockheedCorporationBPELProcess"
+	xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype">
+
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+		TYPE DEFINITION - List of services participating in this BPEL process The 
+		default output of the BPEL designer uses strings as input and output to the 
+		BPEL Process. But you can define or import any XML Schema type and use them 
+		as part of the message types. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<wsdl:types>
+		<schema xmlns="http://www.w3.org/2001/XMLSchema">
+			<!--<import namespace="http://xmlns.oracle.com/SOAApplication4/LockheedCorporation/LockheedCorporationBPELProcess" 
+				schemaLocation="../Schemas/LockheedCorporationBPELProcess.xsd" /> -->
+			<!-- <import namespace="/oracle/fodemo/storefront/store/queries/common/" 
+				schemaLocation="oramds:/deployed-composites/default/LockheedCorporation_rev1.0/Schemas/test.xsd"/> -->
+
+			<import namespace="/oracle/fodemo/storefront/store/queries/common/"
+				schemaLocation="test.xsd" />
+
+		</schema>
+	</wsdl:types>
+
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+		MESSAGE TYPE DEFINITION - Definition of the message types used as part of 
+		the port type defintions ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<wsdl:message name="LockheedCorporationBPELProcessRequestMessage">
+		<wsdl:part name="payload" element="client:process" />
+	</wsdl:message>
+	<wsdl:message name="LockheedCorporationBPELProcessResponseMessage">
+		<wsdl:part name="payload" element="client:processResponse" />
+	</wsdl:message>
+
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+		PORT TYPE DEFINITION - A port type groups a set of operations into a logical 
+		service unit. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+	<!-- portType implemented by the LockheedCorporationBPELProcess BPEL process -->
+	<wsdl:portType name="LockheedCorporationBPELProcess">
+		<wsdl:operation name="process">
+			<wsdl:input message="client:LockheedCorporationBPELProcessRequestMessage" />
+			<wsdl:output message="client:LockheedCorporationBPELProcessResponseMessage" />
+		</wsdl:operation>
+	</wsdl:portType>
+
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+		PARTNER LINK TYPE DEFINITION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<plnk:partnerLinkType name="LockheedCorporationBPELProcess">
+		<plnk:role name="LockheedCorporationBPELProcessProvider"
+			portType="client:LockheedCorporationBPELProcess" />
+	</plnk:partnerLinkType>
+</wsdl:definitions>

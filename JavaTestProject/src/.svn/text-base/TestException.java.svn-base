@@ -1,0 +1,17 @@
+public class TestException extends TestExceptionSuper {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		new TestException().testSuperCallMe();
+
+	}
+
+	private void testSuperCallMe() {
+		callMe();
+
+	}
+
+}
